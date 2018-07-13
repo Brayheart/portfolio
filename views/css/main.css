@@ -1,0 +1,29 @@
+.main-header{
+  background: url(/views/img/img3.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+
+div>img {
+  cursor: pointer !important;
+}
+
+div>p>a {
+  cursor: pointer !important
+}
+
+.texture{
+    background: url(../img/blue-green.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+
+#services{
+  padding: 50px;
+}
+
+#photos{
+  padding: 80px;
+}

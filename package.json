@@ -1,0 +1,26 @@
+{
+  "name": "tyler_bray_portfolio",
+  "version": "1.0.0",
+  "description": "portolio site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brayheart/portfolio.git"
+  },
+  "author": "Tyler Bray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brayheart/portfolio/issues"
+  },
+  "homepage": "https://github.com/Brayheart/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "nodemailer": "^4.6.7"
+  }
+}
