@@ -27,3 +27,24 @@ div>p>a {
 #photos{
   padding: 80px;
 }
+
+#margin{
+  margin-top: 0rem !important;
+}
+
+.valign-wrapper>li{
+  padding: 5px !important;
+}
+
+.fa-paper-plane{
+  padding-left: 12px !important;
+}
+
+@media (max-width: 600px) {
+  .main-header{
+      background: url(/views/img/img3.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 300px;
+  }
+}
