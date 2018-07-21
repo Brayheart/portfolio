@@ -40,6 +40,26 @@ div>p>a {
   padding-left: 12px !important;
 }
 
+.olive{
+  background-color: #85AC5F !important; 
+}
+
+.dark-olive{
+  color: #283119 !important;
+}
+
+.indicator{
+  background-color: #283119 !important;
+}
+
+.dark-green-olive{
+  background-color: #618731 !important; 
+}
+
+.active{
+  background-color: #618731 !important;
+}
+
 @media (max-width: 600px) {
   .main-header{
       background: url(/views/img/img3.jpg);
