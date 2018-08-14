@@ -14,7 +14,9 @@ app.set('view engine', 'handlebars');
 app.use('/views', express.static(path.join(__dirname, 'views')));
 
 // Body Parser Middleware
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({
+  extended: false
+}));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
@@ -42,7 +44,7 @@ app.post('/send', (req, res) => {
     secure: false, // true for 465, false for other ports
     auth: {
       user: 'tylerbraywebsite@gmail.com', // generated ethereal user
-      pass: 'javascript'  // generated ethereal password
+      pass: 'javascript' // generated ethereal password
     },
     tls: {
       rejectUnauthorized: false
@@ -66,7 +68,9 @@ app.post('/send', (req, res) => {
     console.log('Message sent: %s', info.messageId);
     console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
-    res.render('contact', { msg: 'Email has been sent' });
+    res.render('contact', {
+      msg: 'Email has been sent'
+    });
   });
 });
 
