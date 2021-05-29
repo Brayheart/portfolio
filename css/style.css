@@ -17,6 +17,35 @@
   background: #000;
 }
 
+.fa-react {
+  color: #79D8F7
+}
+
+.fa-js-square {
+  color: #FBD74A
+}
+
+.fa-html5 {
+  color: #E65333
+}
+
+.fa-npm {
+  color: #F47E15
+}
+
+.fa-css3-alt{
+  color: #324CDD
+}
+
+.fa-git-alt { 
+  color: #F47E15
+}
+
+/* .card-img-top {
+  height: 300px;
+  width: 300px; 
+} */
+
 @media (min-width: 1199px) {
   .port-item {
     padding: 3em !important;
