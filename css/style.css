@@ -1,6 +1,10 @@
 #main-header img {
-  width: 100%;
+  width: 76%;
   height: 100%;
+}
+
+#test{
+  width: 100%;
 }
 
 #main-header .port-item {
@@ -45,6 +49,8 @@
   height: 300px;
   width: 300px; 
 } */
+
+
 
 @media (min-width: 1199px) {
   .port-item {
