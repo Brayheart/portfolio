@@ -8,12 +8,26 @@
 }
 
 #main-header .port-item {
-  width: 30%;
+  width: 33.33333333%;
 }
 
 #main-header .port-item:hover {
   opacity: 0.8;
   cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.grid-item {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .bg-black {
