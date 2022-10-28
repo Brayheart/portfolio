@@ -35,6 +35,15 @@
    transition-duration: .3s;
 }
 
+.home-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-items: center;
+}
+
 .bg-black {
   color: #fff;
   background: #000;
@@ -69,7 +78,17 @@
   width: 300px; 
 } */
 
+@media (max-width: 500px) {
+  .grid{
+    grid-template-columns: auto;
+    row-gap: 50px;
+  }
 
+  .home-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
 
 @media (min-width: 1199px) {
   .port-item {
