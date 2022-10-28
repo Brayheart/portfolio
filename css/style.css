@@ -30,6 +30,11 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.grid-item:hover{
+  transform: scale(1.1);
+   transition-duration: .3s;
+}
+
 .bg-black {
   color: #fff;
   background: #000;
