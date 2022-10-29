@@ -73,10 +73,6 @@
   color: #F47E15
 }
 
-.card-deck {
-  flex-direction: column-reverse;
-}
-
 /* .card-img-top {
   height: 300px;
   width: 300px; 
@@ -91,6 +87,10 @@
   .home-grid {
     display: grid;
     grid-template-columns: auto auto;
+  }
+
+  .card-deck {
+    flex-direction: column-reverse;
   }
 }
 
