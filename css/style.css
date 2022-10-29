@@ -73,6 +73,26 @@
   color: #F47E15
 }
 
+.no-padding-bottom {
+  padding-bottom: 0px !important;
+}
+
+.heading-background {
+  background-color: #04171F;
+}
+
+.bg-home {
+  background-color: #0C3459;
+}
+
+.bg-resume {
+  background-color: #4C97B8;
+}
+
+.bg-projects {
+  background-color: #56B9EC;
+}
+
 /* .card-img-top {
   height: 300px;
   width: 300px; 
