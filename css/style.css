@@ -83,13 +83,16 @@
 
 .bg-home {
   background-color: #0C3459;
+  border-radius: 0px;
 }
 
 .bg-resume {
+  border-radius: 0px;
   background-color: #4C97B8;
 }
 
 .bg-projects {
+  border-radius: 0px;
   background-color: #56B9EC;
 }
 
