@@ -115,6 +115,10 @@
     row-gap: 50px;
   }
 
+  .spruce {
+    display: none;
+  }
+
   .home-grid {
     display: grid;
     grid-template-columns: auto auto;
